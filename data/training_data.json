@@ -1,0 +1,26 @@
+[
+    {"query": "How do I pay?", "intent": "payment"},
+    {"query": "What payment methods do you accept?", "intent": "payment"},
+    {"query": "Is cash on delivery available?", "intent": "payment"},
+    {"query": "Can I pay using Apple Pay or Google Pay?", "intent": "payment"},
+
+    {"query": "Tell me about the return policy", "intent": "return_policy"},
+    {"query": "Can I return an item after 30 days?", "intent": "return_policy"},
+    {"query": "How do I request a return?", "intent": "return_policy"},
+    {"query": "Will I get a refund for returned items?", "intent": "return_policy"},
+
+    {"query": "How do I place an order?", "intent": "buying"},
+    {"query": "Can I track my order?", "intent": "buying"},
+    {"query": "Are there any discounts for first-time buyers?", "intent": "buying"},
+    {"query": "Can I cancel my order?", "intent": "buying"},
+
+    {"query": "What are the shipping options?", "intent": "shipping"},
+    {"query": "How much does shipping cost?", "intent": "shipping"},
+    {"query": "Do you offer free shipping?", "intent": "shipping"},
+    {"query": "Can I change my shipping address after placing an order?", "intent": "shipping"},
+
+    {"query": "Hello", "intent": "greeting"},
+    {"query": "Hi", "intent": "greeting"},
+    {"query": "Goodbye", "intent": "goodbye"},
+    {"query": "I need help", "intent": "help"}
+]

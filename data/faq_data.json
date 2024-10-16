@@ -1,0 +1,96 @@
+{
+    "payment": [
+        {
+            "question": "How do I pay?",
+            "answer": "You can pay via credit card, debit card, or PayPal."
+        },
+        {
+            "question": "What payment methods do you accept?",
+            "answer": "We accept Visa, MasterCard, American Express, and PayPal."
+        },
+        {
+            "question": "Is cash on delivery available?",
+            "answer": "Yes, cash on delivery is available for select locations."
+        },
+        {
+            "question": "Can I pay using Apple Pay or Google Pay?",
+            "answer": "We currently accept Apple Pay and Google Pay for online purchases."
+        }
+    ],
+    "return_policy": [
+        {
+            "question": "What is the return policy?",
+            "answer": "You can return products within 30 days of purchase."
+        },
+        {
+            "question": "Can I return an item after 30 days?",
+            "answer": "Unfortunately, returns are only accepted within 30 days of purchase."
+        },
+        {
+            "question": "How do I request a return?",
+            "answer": "To request a return, log in to your account and navigate to the 'Order History' section."
+        },
+        {
+            "question": "Will I get a refund for returned items?",
+            "answer": "Yes, refunds will be issued within 7-10 business days once the return is processed."
+        }
+    ],
+    "buying": [
+        {
+            "question": "How do I place an order?",
+            "answer": "To place an order, select the products you want to purchase, add them to your cart, and proceed to checkout."
+        },
+        {
+            "question": "Can I track my order?",
+            "answer": "Yes, you can track your order through the 'Order History' section on your account."
+        },
+        {
+            "question": "Are there any discounts for first-time buyers?",
+            "answer": "Yes, we offer a 10% discount for first-time buyers. Use code FIRST10 at checkout."
+        },
+        {
+            "question": "Can I cancel my order?",
+            "answer": "Orders can be canceled within 24 hours of placing the order. Contact support for assistance."
+        }
+    ],
+    "shipping": [
+        {
+            "question": "What are the shipping options?",
+            "answer": "We offer standard, express, and overnight shipping options."
+        },
+        {
+            "question": "How much does shipping cost?",
+            "answer": "Shipping costs vary based on the shipping method selected and your location. You can view the shipping fees at checkout."
+        },
+        {
+            "question": "Do you offer free shipping?",
+            "answer": "Yes, we offer free shipping on orders over $100."
+        },
+        {
+            "question": "Can I change my shipping address after placing an order?",
+            "answer": "Yes, you can change your shipping address within 24 hours of placing the order by contacting customer support."
+        }
+    ],
+    "greeting": [
+        {
+            "question": "Hello",
+            "answer": "Hi there! How can I assist you today?"
+        },
+        {
+            "question": "Hi",
+            "answer": "Hello! What can I do for you?"
+        }
+    ],
+    "goodbye": [
+        {
+            "question": "Goodbye",
+            "answer": "Goodbye! Have a great day!"
+        }
+    ],
+    "help": [
+        {
+            "question": "I need help",
+            "answer": "Sure! What do you need help with?"
+        }
+    ]
+}
