@@ -1,6 +1,7 @@
 # Company FAQ Chatbot
 # Overview
 The Company FAQ Chatbot is an intelligent virtual assistant designed to enhance user experience by automating the process of answering frequently asked questions (FAQs) related to buying and paying processes. This chatbot leverages machine learning and natural language processing to provide accurate and relevant responses to user inquiries.
+![image](https://github.com/user-attachments/assets/2e493faf-ef77-433a-8907-2aec14c362c4)
 
 # Features
 Intent Recognition: The chatbot utilizes a trained Logistic Regression model to accurately identify user intents.
