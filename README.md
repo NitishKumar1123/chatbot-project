@@ -1,23 +1,61 @@
-# Company FAQ Chatbot
-# Overview
-The Company FAQ Chatbot is an intelligent virtual assistant designed to enhance user experience by automating the process of answering frequently asked questions (FAQs) related to buying and paying processes. This chatbot leverages machine learning and natural language processing to provide accurate and relevant responses to user inquiries.
+# Chatbot Project
+
+## Overview
+This project is a **company-focused chatbot** designed to streamline customer interactions, improve engagement, and provide quick responses to queries. The chatbot is built using modern frameworks and technologies, emphasizing scalability, efficiency, and user-friendliness. It can handle FAQs, provide company details, and integrate with APIs for advanced functionality.
 
 ![image](https://github.com/user-attachments/assets/2e493faf-ef77-433a-8907-2aec14c362c4)
 
-# Features
-Intent Recognition: The chatbot utilizes a trained Logistic Regression model to accurately identify user intents.
-Natural Language Processing: Advanced NLP techniques enable the chatbot to process and understand user queries effectively.
-Fuzzy Matching: Incorporates fuzzy matching to return relevant FAQs even if user queries are not exact matches.
-Dynamic Interface: Built with Flask, the chatbot features a user-friendly web interface that allows real-time interaction.
-Error Handling: The chatbot gracefully manages errors related to user input and model loading, providing fallback responses.
-# Tech Stack
-Backend: Python, Flask
-Machine Learning: Scikit-learn, FuzzyWuzzy
-Frontend: HTML, CSS, JavaScript
-Data Storage: JSON files for FAQs and training data
-# Project Structure
+## Features
+- **Natural Language Processing (NLP):** Understands and responds to user queries intelligently.
+- **Customizable Responses:** Predefined templates and dynamic response generation.
+- **Multilingual Support:** Can be extended to support multiple languages.
+- **Scalability:** Built to handle multiple simultaneous user interactions.
+- **Integration Capabilities:** Easy integration with third-party APIs and services.
+- **User Authentication (Optional):** Supports secure user logins for personalized experiences.
 
-company_chatbot/
+## Tech Stack
+- **Programming Language:** Python 3.11.9
+- **Frameworks:** Flask, Gunicorn
+- **Natural Language Processing:** NLTK, SpaCy
+- **Database:** SQLite (can be extended to PostgreSQL or MongoDB)
+- **Deployment:** Render
+
+## Installation
+
+### Prerequisites
+1. **Python 3.11.9:** Make sure Python is installed on your system. Download from [Python's official site](https://www.python.org/).
+2. **Virtual Environment (Recommended):**
+   ```bash
+   python -m venv myenv
+   source myenv/bin/activate  # Linux/Mac
+   myenv\Scripts\activate   # Windows
+   ```
+3. **Git:** Ensure Git is installed for cloning the repository.
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/NitishKumar1123/chatbot-project.git
+   cd chatbot-project
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application locally:
+   ```bash
+   python app.py
+   ```
+
+4. Access the chatbot at:
+   ```
+   http://localhost:5000
+   ```
+
+## File Structure
+```
+chatbot-project/
 ├── app/
 │   ├── __init__.py
 │   ├── main.py                  
@@ -43,32 +81,72 @@ company_chatbot/
 │   └── test_chatbot.py          
 ├── config.py                    
 ├── requirements.txt             
-└── run.py                       
-Installation
-# Clone the repository:
+└── run.py
+```
 
-git clone https://github.com/NitishKumar1123/chatbot-project.git
-# Navigate to the project directory:
+## Deployment
+This project is deployed using [Render](https://render.com). Follow these steps to deploy:
 
-cd chatbot-project
-Install the required dependencies:
+1. Push all changes to the GitHub repository:
+   ```bash
+   git add .
+   git commit -m "Updated project files"
+   git push origin master
+   ```
 
-pip install -r requirements.txt
-Usage
-Start the Flask application:
+2. Connect your GitHub repository to Render.
+3. Set the **Build Command**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Set the **Start Command**:
+   ```bash
+   gunicorn app:app
+   ```
+5. Deploy and monitor the application.
 
-python run.py
-Open your web browser and go to http://127.0.0.1:5000 to interact with the chatbot.
-Training the Model
-To train the chatbot's intent recognition model, you can use the provided train_model.py script. Make sure to have your training data ready in data/training_data.json. Run the script as follows:
+## How to Use
+1. Open the chatbot URL (locally or deployed).
+2. Type your query in the chat interface.
+3. Receive intelligent responses from the chatbot.
 
-python scripts/train_model.py
-Testing
-Unit tests are included in the tests/ directory. To run the tests, navigate to the project directory and execute:
+## Troubleshooting
+### Common Issues
+- **Gunicorn not found:** Ensure `gunicorn` is in `requirements.txt` and re-install dependencies.
+- **Port issues:** Make sure no other application is running on port 5000.
+- **ModuleNotFoundError:** Verify that all dependencies are installed.
 
-python -m unittest discover tests
-Contributions
-Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
+### Debugging Locally
+Run the application in debug mode:
+```bash
+python app.py --debug
+```
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## Future Enhancements
+- **Integration with AI Models:** Add GPT-based models for enhanced responses.
+- **Analytics Dashboard:** Monitor user interactions and chatbot performance.
+- **Advanced Authentication:** OAuth and social logins.
+- **Integration with CRM Tools:** Automate lead capturing and follow-ups.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch-name
+   ```
+3. Commit your changes and push:
+   ```bash
+   git commit -m "Add a new feature"
+   git push origin feature-branch-name
+   ```
+4. Create a pull request.
+
+## Authors
+- **Nitish Kumar** ([GitHub Profile](https://github.com/NitishKumar1123))
+
+
+                       
